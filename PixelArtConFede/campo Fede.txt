@@ -1,0 +1,12 @@
+10b 2v
+9b 4v
+8b 6v
+10b 2m
+10b 2m
+5b 1g 4b 2m
+4b 1g 1r 1g 3b 2m
+5b 1g 4b 2m
+5b 1v 4b 2m
+5b 2v 3b 2m
+3b 1v 1b 1v 2b 1v 1b 2m
+1b 12v

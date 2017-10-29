@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <title>PixelArt con Fede</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js"></script>
+</head>
+<body>
+  <div class="container-fluid">
+    <h1>PixelArt con Fede</h1>
+    <form id="form">
+      <div class="form-group">
+       <div class="row">
+        <div class="col-md-12">
+          <p>
+            <label for="codice">Inserisci il codice</label>
+            <button id="disegna" type="button" class="btn btn-success">Disegna!</button>
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">                  
+          <textarea id="codice" class="form-control" rows=20>
+7b 1n 7b 1n
+7b 2n 5b 2n
+7b 9n
+7b 2n 1v 3n 1v 2n
+7b 2n 1v 3n 1v 2n
+5b 1v 1b 4n 1r 4n
+5b 1v 2b 7n 1b
+3b 6a 5n
+2b 2a 1n 2a 1n 2a 5n
+2b 1a 2n 2a 2n 1a 5n 2b 1n
+2b 8a 6n 1b 1n
+2b 2a 4n 2a 6n 1b 1n
+2b 3a 2n 3a 6n 1b 1n
+3b 6a 9n
+          </textarea>          
+        </div>
+        <div class="col-md-8">
+          <section id="area"></section>
+        </div>
+        <div class="col-md-1">
+          <p><span class="pixel b"></span> b</p>
+          <p><span class="pixel v"></span> v</p>
+          <p><span class="pixel a"></span> a</p>
+          <p><span class="pixel n"></span> n</p>
+          <p><span class="pixel r"></span> r</p>
+          <p><span class="pixel m"></span> m</p>
+          <p><span class="pixel g"></span> g</p>
+          <p><span class="pixel c"></span> c</p>
+          <p><span class="pixel z"></span> z</p>
+          <p><span class="pixel u"></span> u</p>
+          <p><span class="pixel s"></span> s</p>
+          <p><span class="pixel p"></span> p</p>
+          <p><span class="pixel f"></span> f</p>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+</body>
+</html>

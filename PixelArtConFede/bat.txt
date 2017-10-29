@@ -1,0 +1,13 @@
+9b 2n 12b 2n 9b
+8b 2n 4b 2n 2b 2n 4b 2na
+7b 3n 4b 6n 4b 3n
+6b 5n 3b 1n 1b 2n 1b 1n 3b 5n
+5b 7n 1b 8n 1b 7n
+4b 26n
+4b 26n
+4b 26n
+4b 5n 1b 14n 1b 5n
+4b 4n 3b 2n 1b 6n 1b 2n 3b 4n
+4b 3n 5b 1n 3b 2n 3b 1n 5b 3n
+4b 2n 22b 2n
+5b 2n 20b 2n

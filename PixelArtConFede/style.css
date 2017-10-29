@@ -1,0 +1,26 @@
+body {
+	x-background-color: #42a5f5;
+	x-color: white;
+}
+#area {line-height:0; background-color: white;}
+#codice {font-family: monospace;}
+.row {background-color: white}
+span.pixel {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-color: #eee;
+}
+span.pixel.b {background-color:white}
+span.pixel.v {background-color:green}
+span.pixel.a {background-color:orange}
+span.pixel.n {background-color:black}
+span.pixel.r {background-color:pink}
+span.pixel.m {background-color:brown}
+span.pixel.g {background-color:yellow}
+span.pixel.c {background-color:lightgreen}
+span.pixel.z {background-color:lightblue}
+span.pixel.u {background-color:blue}
+span.pixel.s {background-color:red}
+span.pixel.p {background-color:purple}
+span.pixel.f {background-color:magenta}
