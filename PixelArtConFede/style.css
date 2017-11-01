@@ -1,9 +1,12 @@
 body {
-	x-background-color: #42a5f5;
-	x-color: white;
 }
 #area {line-height:0; background-color: white;}
 #codice {font-family: monospace;}
+
+.legenda {margin-bottom: 1em}
+.legenda p {line-height: 22px; height: 22px; width: 44px; display: inline-block; margin: .5em 0;}
+.legenda p span.pixel {border: 1px solid gray}
+
 .row {background-color: white}
 span.pixel {
 	display: inline-block;
