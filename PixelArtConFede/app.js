@@ -14,6 +14,8 @@ window.onload = function(e) {
 	var creaDisegno = function() {
 		var righe, riga, listaPixels, pixels, i, j, k, quanti, colore, info; 
 
+		if (typeof gtag === "function") gtag('event', 'creaDisegno');
+
 		righe = codice.value.split("\n");
 		area.innerHTML = '';
 
